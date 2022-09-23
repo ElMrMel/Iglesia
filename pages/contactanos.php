@@ -37,16 +37,8 @@
     ?>
 
 <my-nav></my-nav>
-<div class="form-container">
-    <form name="contactFormEmail" method="post">
-        <h2 id="contacto">Contacto</h2>
-        <p><input type="text" name="nombre" placeholder="Nombre" required></p> <br>
-        <p><input type="text" name="correo" placeholder="Correo" required></p> <br>
-        <p><input type="text" name="telefono" placeholder="Telefono" required></p> <br>
-        <textarea name="mensaje" placeholder="Escriba aqui su mensaje"required></textarea>
-        <input type="submit" value="send" id="boton">
         <?php if (!empty($message)){ ?>
-            <div class="success">
+            
                 <strong><?php echo $message; ?></strong>
             </div>
         <?php } ?>
@@ -55,5 +47,5 @@
 
 <my-footer></my-footer>        
     </body>
-    <script type="module" src="/src/template.js"></script>
+
     </html>
