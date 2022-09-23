@@ -677,32 +677,31 @@ hr {
 }
 
 form{
-  width: 450px;
+  width: 50%;
   margin: auto;
+  margin-bottom: 50px;
   background: #15485482;
-  padding: 10px 20px;
+  padding: 20px 20px;
   box-sizing: border-box;
-  margin-top: 20px;
+  margin-top: 50px;
   border-radius: 7px;
-
 }
-h2{
+
+#contacto{
   color: aliceblue;
   text-align: center;
   margin: o;
   font-size: 30px;
-  margin-bottom: 20px ;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-
+  margin-bottom: 20px;
 }
+
 input, textarea{
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 7px;
   box-sizing: border-box;
   font-size: 17px;
   border:none;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 textarea{
@@ -715,12 +714,21 @@ max-width: 100%;
 background: #154854; 
 color: #fff;
 padding: 20px; 
-
+width: 100%;
+border-radius: 8px;
+display: flex;
+margin-top: 10px;
+align-items: center;
+justify-content: center;
+text-align: center;
 }
 
 #boton:hover{
   cursor: pointer; 
+  color: #1f8ea1;
 }
+
+
 
 @media(max-width:600px){
   form{
