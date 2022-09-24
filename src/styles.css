@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
   background: rgba(245, 245, 245, 0.992) !important;
 }
 
@@ -733,6 +733,89 @@ text-align: center;
       width: 100%;
   }
 }
+
+.coming-container {
+  max-width: 90%;
+  max-height: 90%;
+  margin: 0 auto;
+}
+
+.coming-container .coming {
+  box-shadow: 4px 8px 20px -10px rgba(0, 0, 0, 0.447);
+  display: flex;
+  border-radius: 8px;
+  margin: 32px 0;
+  width: 100%;
+  height: 100%;
+}
+
+.coming-container .coming .coming-left .coming-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 0 0 8px;
+}
+
+.coming-container .coming {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.coming-container .coming .coming-right h3 {
+  font-size: 3.7vw;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #b1b1b1;
+  color: #747773a1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30px;
+  line-height: 1.2;
+}
+
+.coming-container .coming .coming-right p {
+  font-size: 1.8vw;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  line-height: 2;
+}
+
+.coming-container .coming .coming-right .coming-button{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+}
+
+.coming-container .coming .coming-right .coming-button button {
+  background-color: #1f8ea1;
+  color: white;
+  border: 2px solid #1f8ea1;
+  text-decoration: none;
+  padding: .5em 1.2em;
+  display: flex;
+  margin: 1em 0.3em .3em 0em;
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.coming-container .coming .coming-right .coming-button a {
+  text-decoration: none;
+}
+
+.coming-container .coming .coming-right .coming-button button:hover {
+  color: #747773a1;
+  background-color: white;
+}
+
+
 
 
 
