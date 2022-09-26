@@ -541,16 +541,18 @@ hr {
 }
 
 .blurb h2 {
-  color: #000;
-  font-weight: 100;
-  font-size: 3rem;
+  font-weight: 400;
+  font-size: 3.5rem;
+  color: #1f8ea1;
+  font-family: "Montserat", sans-serif;
 }
 
 .blurb p {
-  color: #1f8ea1;
+  color: rgba(0, 0, 0, 0.61);
   font-weight: 100;
-  font-size: 1.5rem;
-  line-height: 2;
+  font-size: 2rem;
+  line-height: 1.8;
+  font-family: "Montserat", sans-serif;
 }
 
 .content {
@@ -560,16 +562,18 @@ hr {
 
 #headingGroup span {
   color: #1f8ea1;
+  font-weight: 400;
 }
 
 #headingGroup h1 {
-  font-weight: 100;
+  font-weight: 400;
   font-size: 4rem;
+  font-family: "Montserat", sans-serif;
 }
 
-.navbar.scrolled {
-  background: #00aced;
-  transition: background 500ms;
+.areasicon {
+  max-width: 60px;
+  max-height: 60px;
 }
 
 @media (max-width: 1200px) {
